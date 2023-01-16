@@ -14,6 +14,6 @@ class PageController extends Controller
 
         // dd($all_movie);
 
-        return view('welcome', $all_movie );
+        return view('welcome', compact('all_movie'));
     }
 }
